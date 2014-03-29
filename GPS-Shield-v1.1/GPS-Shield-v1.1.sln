@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS-Shield-v1.1", "GPS-Shield-v1.1\GPS-Shield-v1.1.csproj", "{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FE2425-B65B-4916-A2DB-F1098DDDC33E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
