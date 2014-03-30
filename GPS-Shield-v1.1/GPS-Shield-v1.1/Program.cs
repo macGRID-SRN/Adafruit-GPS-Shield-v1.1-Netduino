@@ -22,12 +22,12 @@ namespace GPS_Shield_v1._1
 
             while (true)
             {
-                getResponse(gpsModule);
+                Location myLoc = new Location(getResponse(gpsModule));
                 Thread.Sleep(2000);
             }
         }
 
-        private static void getResponse(SerialPort serial)
+        private static string getResponse(SerialPort serial)
         {
             String response = "";
             while (serial.BytesToRead > 0)
@@ -46,6 +46,7 @@ namespace GPS_Shield_v1._1
                     break;
                 }
             }
+            return response;
         }
     }
 }

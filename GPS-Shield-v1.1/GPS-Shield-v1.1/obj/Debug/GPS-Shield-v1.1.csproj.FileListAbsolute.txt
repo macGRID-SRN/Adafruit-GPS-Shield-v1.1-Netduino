@@ -28,3 +28,9 @@ C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shi
 C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\obj\Debug\GPS-Shield-v1.1.exe
 C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\obj\Debug\GPS-Shield-v1.1.pdb
 C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\obj\Debug\GPS-Shield-v1.1.csprojResolveAssemblyReference.cache
+C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\bin\Debug\LE\Toolbox.NETMF.Core.pe
+C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\bin\Debug\BE\Toolbox.NETMF.Core.pe
+C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\bin\Debug\LE\Toolbox.NETMF.Core.pdbx
+C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\bin\Debug\BE\Toolbox.NETMF.Core.pdbx
+C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\bin\Debug\Toolbox.NETMF.Core.dll
+C:\Users\Colin Gagich\Documents\GitHub\Adafruit-GPS-Shield-v1.1-Netduino\GPS-Shield-v1.1\GPS-Shield-v1.1\bin\Debug\Toolbox.NETMF.Core.pdb
