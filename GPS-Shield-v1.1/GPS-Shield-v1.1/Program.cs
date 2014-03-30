@@ -1,52 +1,28 @@
 ﻿using System;
-using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
 using SecretLabs.NETMF.Hardware;
 using SecretLabs.NETMF.Hardware.Netduino;
+using Toolbox.NETMF.Hardware;
 using System.IO.Ports;
 
 namespace GPS_Shield_v1._1
 {
     public class Program
     {
+        public static NmeaGps gpsModule = new NmeaGps();
         public static void Main()
         {
-            SerialPort gpsModule = new SerialPort(SerialPorts.COM2, 4800);
-
+            //low actually turns the thing on, go figure
             OutputPort gpsPower = new OutputPort(Pins.GPIO_PIN_D4, false);
-
-            gpsModule.Open();
-
+            gpsModule.Start();
             while (true)
             {
-                Location myLoc = new Location(getResponse(gpsModule));
+                Debug.Print(gpsModule.Satellites.ToString());
                 Thread.Sleep(2000);
             }
-        }
-
-        private static string getResponse(SerialPort serial)
-        {
-            String response = "";
-            while (serial.BytesToRead > 0)
-            {
-                byte[] buf = new byte[1];
-                serial.Read(buf, 0, 1);
-                // Line feed - 0x0A - marks end of data.
-                // Append each byte read until end of data.
-                if (buf[0] != 0x0A)
-                {
-                    response += (char)buf[0];
-                }
-                else
-                {
-                    //Debug.Print(response);
-                    break;
-                }
-            }
-            return response;
         }
     }
 }
