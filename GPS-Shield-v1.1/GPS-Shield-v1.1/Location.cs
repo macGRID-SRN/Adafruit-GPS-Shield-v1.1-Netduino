@@ -11,9 +11,13 @@ namespace GPS_Shield_v1._1
         public Location(string response)
         {
             
-            Debug.Print(CheckSum(response).ToString());
         }
 
+        /// <summary>
+        /// Checks if a NMEA sentence is a valid.
+        /// </summary>
+        /// <param name="response">The NMEA sentence to be checked.</param>
+        /// <returns>Whether or not the reponse is a valid NMEA sentence.</returns>
         protected bool CheckSum(string response)
         {
             response = response.TrimStart(new char[] { '$' });
@@ -27,10 +31,10 @@ namespace GPS_Shield_v1._1
         }
 
         /// <summary>
-        /// takes a NMEA sentence and retrieves the expected checkSum
+        /// takes a NMEA sentence and retrieves the expected checkSum.
         /// </summary>
-        /// <param name="response">the incoming string from the NMEA device</param>
-        /// <returns>the expected checksum</returns>
+        /// <param name="response">the incoming string from the NMEA device.</param>
+        /// <returns>the expected checksum.</returns>
         protected byte expectedCheckSum(string response, ref string checkSumRemoved)
         {
             int starPosition = response.Length - 1;
