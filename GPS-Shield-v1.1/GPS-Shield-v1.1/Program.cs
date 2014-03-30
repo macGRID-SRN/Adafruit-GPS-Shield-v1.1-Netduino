@@ -22,11 +22,9 @@ namespace GPS_Shield_v1._1
 
             while (true)
             {
-                Debug.Print("lala");
                 getResponse(gpsModule);
                 Thread.Sleep(2000);
             }
-
         }
 
         private static void getResponse(SerialPort serial)
@@ -48,7 +46,6 @@ namespace GPS_Shield_v1._1
                     break;
                 }
             }
-            Debug.Print(response);
         }
     }
 }
