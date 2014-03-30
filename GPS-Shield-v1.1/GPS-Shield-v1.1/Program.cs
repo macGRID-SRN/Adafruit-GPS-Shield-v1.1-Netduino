@@ -42,7 +42,7 @@ namespace GPS_Shield_v1._1
                 }
                 else
                 {
-                    Debug.Print(response);
+                    //Debug.Print(response);
                     break;
                 }
             }
