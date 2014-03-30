@@ -20,7 +20,10 @@ namespace GPS_Shield_v1._1
             gpsModule.Start();
             while (true)
             {
-                Debug.Print(gpsModule.Satellites.ToString());
+                Debug.Print("Has Connection: " + gpsModule.Fix.ToString());
+                Debug.Print("Speed: " + gpsModule.Kmh.ToString() + "km/hr");
+                Debug.Print("Satellites: " + gpsModule.Satellites.ToString());
+                Debug.Print("");
                 Thread.Sleep(2000);
             }
         }
